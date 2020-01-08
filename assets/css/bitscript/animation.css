@@ -1,0 +1,57 @@
+/**
+ * ===================
+ * @ FADE
+ * ===================
+**/
+@keyframes fade
+{
+	0% {
+		opacity: 0
+	}
+	100% {
+		opacity: 1
+	}
+}
+@-webkit-keyframes fade
+{
+	0% {
+		opacity: 0
+	}
+	100% {
+		opacity: 1
+	}
+}
+
+/**
+ * ===================
+ * @ CLICK WAVE
+ * ===================
+**/
+@keyframes click-wave
+{
+	0% {
+		position: relative;
+		opacity: 0.35;
+		height: 40px;
+		width: 40px
+	}
+	100% {
+		margin-left: -80px;
+		margin-top: -80px;
+		height: 200px;
+		width: 200px;
+		opacity: 0
+	}
+}
+
+/**
+ * ===================
+ * @ ROTATE
+ * ===================
+**/
+@keyframes rotate
+{
+	100% {
+		transform: rotate(360deg)
+	}
+}

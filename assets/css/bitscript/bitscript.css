@@ -1,0 +1,234 @@
+/**
+ * ===================
+ * @ IMPORT
+ * ===================
+**/
+@import url('fontawesome.css');
+@import url('bootstrap.css');
+@import url('animation.css');
+
+/**
+ * ===================
+ * @ FONT IMPORT
+ * ===================
+**/
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+/**
+ * ===================
+ * @ FONT FACE
+ * ===================
+**/
+@font-face {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 100;
+	src: local('Lato Hairline'), local(Lato-Hairline), url(https://fonts.gstatic.com/s/lato/v13/zJY4gsxBiSo5L7tNutxFNg.ttf) format(truetype)
+}
+@font-face {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 300;
+	src: local('Lato Light'), local(Lato-Light), url(https://fonts.gstatic.com/s/lato/v13/nj47mAZe0mYUIySgfn0wpQ.ttf) format(truetype)
+}
+@font-face {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 400;
+	src: local('Lato Regular'), local(Lato-Regular), url(https://fonts.gstatic.com/s/lato/v13/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format(truetype)
+}
+@font-face {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 700;
+	src: local('Lato Bold'), local(Lato-Bold), url(https://fonts.gstatic.com/s/lato/v13/DvlFBScY1r-FMtZSYIYoYw.ttf) format(truetype)
+}
+@font-face {
+	font-family: Lato;
+	font-style: italic;
+	font-weight: 300;
+	src: local('Lato Light Italic'), local(Lato-LightItalic), url(https://fonts.gstatic.com/s/lato/v13/2HG_tEPiQ4Z6795cGfdivKCWcynf_cDxXwCLxiixG1c.ttf) format(truetype)
+}
+@font-face {
+	font-family: Lato;
+	font-style: italic;
+	font-weight: 400;
+	src: local('Lato Italic'), local(Lato-Italic), url(https://fonts.gstatic.com/s/lato/v13/LqowQDslGv4DmUBAfWa2Vw.ttf) format(truetype)
+}
+@font-face {
+	font-family: Lato;
+	font-style: italic;
+	font-weight: 700;
+	src: local('Lato Bold Italic'), local(Lato-BoldItalic), url(https://fonts.gstatic.com/s/lato/v13/HkF_qI1x_noxlxhrhMQYEKCWcynf_cDxXwCLxiixG1c.ttf) format(truetype)
+}
+@font-face {
+	font-family:'Droid Serif';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Droid Serif Regular'), local(DroidSerif-Regular), url(https://fonts.gstatic.com/s/droidserif/v7/0AKsP294HTD-nvJgucYTaJ0EAVxt0G0biEntp43Qt6E.ttf) format(truetype)
+}
+@font-face {
+	font-family:'Droid Serif';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Droid Serif Bold'), local(DroidSerif-Bold), url(https://fonts.gstatic.com/s/droidserif/v7/QQt14e8dY39u-eYBZmppwZ_TkvowlIOtbR7ePgFOpF4.ttf) format(truetype)
+}
+@font-face {
+	font-family:'Droid Serif';
+	font-style: italic;
+	font-weight: 400;
+	src: local('Droid Serif Italic'), local(DroidSerif-Italic), url(https://fonts.gstatic.com/s/droidserif/v7/cj2hUnSRBhwmSPr9kS589-LrC4Du4e_yfTJ8Ol60xk0.ttf) format(truetype)
+}
+@font-face {
+	font-family:'Droid Serif';
+	font-style: italic;
+	font-weight: 700;
+	src: local('Droid Serif Bold Italic'), local(DroidSerif-BoldItalic), url(https://fonts.gstatic.com/s/droidserif/v7/c92rD_x0V1LslSFt3-QEpmsGzsqhEorxQDpu60nfWEc.ttf) format(truetype)
+}
+
+/**
+ * ===================
+ * @ CLEAR
+ * ===================
+**/
+* {
+	padding: 0;
+	margin: 0
+}
+
+/**
+ * ===================
+ * @ BORDER BOX
+ * ===================
+**/
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+/**
+ * ===================
+ * @ HTML
+ * ===================
+**/
+html,
+body {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+html,
+body {
+	height: 100%;
+	width: 100%
+}
+body {
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	overflow-x: hidden
+}
+
+/**
+ * ===================
+ * @ BACKGROUND COLOR
+ * ===================
+**/
+.bg-tangerine {
+	background-color: #ffab17 !important;
+	color: #ffffff
+}
+.bg-red {
+	background-color: #e24d52 !important;
+	color: #ffffff
+}
+.bg-blue {
+	background-color: #85b4f2 !important;
+	color: #ffffff
+}
+.bg-yellow {
+	background-color: #eef157 !important;
+	color: #ffffff
+}
+.bg-green {
+	background-color: #54e69d !important;
+	color: #ffffff
+}
+.bg-orange {
+	background-color: #ffc36d !important;
+	color: #ffffff
+}
+.bg-violet {
+	background-color: #796AEE !important;
+	color: #ffffff
+}
+.bg-gray {
+	background-color: #ced4da !important;
+	color: #ffffff
+}
+.bg-white {
+	background-color: #ffffff !important;
+	color: #5c6371
+}
+
+/**
+ * ===================
+ * @ FONT COLOR
+ * ===================
+**/
+.fo-blue {
+	color: #409dc4
+}
+.fo-red {
+	color: #eb5e28
+}
+.fo-black {
+	color: #2f3542
+}
+.fo-orange {
+	color: #ffa502
+}
+.fo-green {
+	color: #2ed573
+}
+.fo-white {
+	color: #f1f2f6
+}
+
+/**
+ * ===================
+ * @ FONT STYLE
+ * ===================
+**/
+.text-center {
+	text-align: center
+}
+.text-right {
+	text-align: right
+}
+.text-left {
+	text-align: left
+}
+
+/**
+ * ===================
+ * @ PULL
+ * ===================
+**/
+.pull-right {
+	float: right
+}
+.pull-left {
+	float: left
+}
+
+/**
+ * ===================
+ * @ PADDING
+ * ===================
+**/
+.no-pd {
+	padding: 0
+}
